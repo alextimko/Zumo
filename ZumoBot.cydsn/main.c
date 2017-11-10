@@ -51,7 +51,7 @@ int rread(void);
 */
 
 
-//battery level//
+/*//battery level//
 int main()
 {
     CyGlobalIntEnable; 
@@ -210,7 +210,7 @@ int main()
 //*/
 
 
-/*//reflectance//
+//reflectance//
 int main()
 {
     struct sensors_ ref;
@@ -230,24 +230,42 @@ int main()
         reflectance_digital(&dig);      //print out 0 or 1 according to results of reflectance period
         printf("%d %d %d %d \r\n", dig.l3, dig.l1, dig.r1, dig.r3);        //print out 0 or 1 according to results of reflectance period
         
+
         CyDelay(500);
     }
+
+    if(dig.r3 == 1 && dig.l3 == 1)
+    {
+        motor_turn(104,100,5200);
+    }
+    else
+    {
+        motor_stop();
+    }
+    
 }   
 //*/
 
- /* //motor//
-int main()
+ /*//motor////*/
+/*int main()
 {
     CyGlobalIntEnable; 
     UART_1_Start();
 
     motor_start();              // motor start
 
-    motor_forward(100,2000);     // moving forward
-    motor_turn(200,50,2000);     // turn
-    motor_turn(50,200,2000);     // turn
-    motor_backward(100,2000);    // movinb backward
-       
+    motor_forward(0,3000);    // moving forward
+    motor_turn(104,100,5200);     // turn
+    //motor_forward(100,5300);//
+    motor_turn(200,0,400); 
+    //motor_forward(100,4000);//
+    motor_turn(103,100,4000);     // turn
+    //motor_forward(100,5300);//
+    motor_turn(200,0,400);
+    //motor_backward(100,2000); //   // movinb backward
+    motor_turn(103,100,4800);
+    motor_turn(200,0,700);
+    motor_turn(100,125,4000);
     motor_stop();               // motor stop
     
     for(;;)
@@ -255,7 +273,7 @@ int main()
 
     }
 }
-//*/
+*/
     
 
 /*//gyroscope//

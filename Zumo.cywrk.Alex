@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Zumo\ZumoBot\Generated_Source\PSoC5\ADC_Battery_Bypass">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Zumo\ZumoBot\Source Files\Reflectance.c">
 <ExpandedNodeIds>
 <v>Zumo</v>
 <v>Zumo\ZumoBot</v>
@@ -126,6 +126,7 @@
 <v>Zumo\ZumoBot\Generated_Source\PSoC5\IR_receiver\IR_receiver.c</v>
 <v>Zumo\ZumoBot\Generated_Source\PSoC5\IR_receiver\IR_receiver.h</v>
 <v>Zumo\ZumoBot\Generated_Source\PSoC5\IR_receiver\IR_receiver_aliases.h</v>
+<v>Zumo\ZumoBot\Generated_Source\PSoC5\L1</v>
 <v>Zumo\ZumoBot\Generated_Source\PSoC5\L1\L1.c</v>
 <v>Zumo\ZumoBot\Generated_Source\PSoC5\L1\L1.h</v>
 <v>Zumo\ZumoBot\Generated_Source\PSoC5\L1\L1_aliases.h</v>
@@ -220,6 +221,29 @@
 <v>Zumo\ZumoBot\Generated_Source\PSoC5\project.h</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>Zumo</v>
+<v>Zumo\ZumoBot</v>
+<v>Zumo\ZumoBot\TopDesign</v>
+<v>Zumo\ZumoBot\ZumoBot.cydwr</v>
+<v>Zumo\ZumoBot\ZumoBot.cydwr\Pins</v>
+<v>Zumo\ZumoBot\ZumoBot.cydwr\Analog</v>
+<v>Zumo\ZumoBot\ZumoBot.cydwr\Clocks</v>
+<v>Zumo\ZumoBot\ZumoBot.cydwr\Interrupts</v>
+<v>Zumo\ZumoBot\ZumoBot.cydwr\DMA</v>
+<v>Zumo\ZumoBot\ZumoBot.cydwr\System</v>
+<v>Zumo\ZumoBot\ZumoBot.cydwr\Directives</v>
+<v>Zumo\ZumoBot\ZumoBot.cydwr\Flash Security</v>
+<v>Zumo\ZumoBot\ZumoBot.cydwr\EEPROM</v>
+<v>Zumo\ZumoBot\Header Files</v>
+<v>Zumo\ZumoBot\Source Files</v>
+<v>Zumo\ZumoBot\Source Files\Accel.c</v>
+<v>Zumo\ZumoBot\Source Files\Ambient.c</v>
+<v>Zumo\ZumoBot\Source Files\Beep.c</v>
+<v>Zumo\ZumoBot\Source Files\Gyro.c</v>
+<v>Zumo\ZumoBot\Source Files\I2C_made.c</v>
+<v>Zumo\ZumoBot\Source Files\IR.c</v>
+<v>Zumo\ZumoBot\Source Files\Magnet.c</v>
+<v>Zumo\ZumoBot\Source Files\main.c</v>
 <v>Zumo\ZumoBot\Source Files\Motor.c</v>
 <v>Zumo\ZumoBot\Source Files\Nunchuk.c</v>
 <v>Zumo\ZumoBot\Source Files\Reflectance.c</v>
@@ -233,29 +257,6 @@
 <v>Zumo\ZumoBot\Generated_Source\PSoC5\ADC_Battery_theACLK\ADC_Battery_theACLK.c</v>
 <v>Zumo\ZumoBot\Generated_Source\PSoC5\ADC_Battery_theACLK\ADC_Battery_theACLK.h</v>
 <v>Zumo\ZumoBot\Generated_Source\PSoC5\Battery_pin</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\Battery_pin\Battery_pin.c</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\Battery_pin\Battery_pin.h</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\Battery_pin\Battery_pin_aliases.h</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\BatteryLed</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\Buzzer</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\Buzzer_PWM</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\Clock_1</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\Clock_2</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\cy_boot</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\Echo</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\I2C</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\IR_led</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\IR_receiver</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\L1</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\L3</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\MotorDirLeft</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\MotorDirRight</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\MotorPwmLeft</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\MotorPwmRight</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\PWM</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\R1</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\R3</v>
-<v>Zumo\ZumoBot\Generated_Source\PSoC5\SCL_1</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -473,6 +474,8 @@
 <OpenDocs>
 <name v=".\ZumoBot.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\ZumoBot.cydsn\main.c" />
+<name v=".\ZumoBot.cydsn\ZumoLibrary\Motor.c" />
+<name v=".\ZumoBot.cydsn\ZumoLibrary\IR.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -480,7 +483,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1005, 497" SelectedTabbedMdiWindow="30ced280-bafb-4c53-81ed-963a74b1028b"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="42e73585-c5ef-45a6-a357-94e3eeccc0a8" /><DocumentWindow Key="097570b7-7b24-4663-b0ed-4d460cacd904" Guid="7fe24da0-5031-4096-90fe-999b9bfd2505" /><DocumentWindow Key="83b174a3-4a53-465a-b0a3-ae443e791966" Guid="30ced280-bafb-4c53-81ed-963a74b1028b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1005, 497" SelectedTabbedMdiWindow="ea0a5b8d-6612-4c43-838c-597018ee5db4"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="42e73585-c5ef-45a6-a357-94e3eeccc0a8" /><DocumentWindow Key="97dd48d6-a76b-4f90-8691-e98949209580" Guid="2faea6a2-1493-4b3f-8c9e-66c5f1247bb0" /><DocumentWindow Key="baff0dd5-8541-4019-9249-dc73c8975cd0" Guid="ea0a5b8d-6612-4c43-838c-597018ee5db4" /><DocumentWindow Key="fa33029d-d448-4ec7-b38a-91bcb34641b2" Guid="f2e883d2-928d-453c-8b31-0d8f8cf72a77" /><DocumentWindow Key="4bd7599e-c12a-4836-ad09-d9e31fe87eb1" Guid="68fd74fd-4514-4615-a24a-fb628dbccb21" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
