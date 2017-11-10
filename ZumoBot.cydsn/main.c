@@ -223,6 +223,9 @@ int main()
     reflectance_start();
 
     IR_led_Write(1);
+    
+      
+    
     for(;;)
     {
         reflectance_read(&ref);
@@ -230,18 +233,41 @@ int main()
         reflectance_digital(&dig);      //print out 0 or 1 according to results of reflectance period
         printf("%d %d %d %d \r\n", dig.l3, dig.l1, dig.r1, dig.r3);        //print out 0 or 1 according to results of reflectance period
         
-
-        CyDelay(500);
-    }
-
-    if(dig.r3 == 1 && dig.l3 == 1)
+    
+    motor_start();
+    
+        
+    if(dig.r1 == 0 && dig.l1 == 0)
     {
-        motor_turn(104,100,5200);
+        motor_forward(150,1);
     }
+    else if(dig.r1 == 1 && dig.l1 == 0 )
+    {
+        motor_turn(0,180,1);
+    }    
+    else if(dig.r1 == 0 && dig.l1 == 1)
+    {
+        motor_turn(180,0,1);
+    }
+    else if(dig.l3 == 1 && dig.l1 == 1 && dig.r1 == 1 && dig.r3 == 0)
+    {
+        motor_turn(255,0,1);
+    }
+    else if(dig.l3 == 0 && dig.l1 == 1 && dig.r1 == 1 && dig.r3 == 1)
+    {
+        motor_turn(0,255,1);
+    }
+    
+    
     else
     {
         motor_stop();
     }
+    
+        CyDelayUs(500);
+    }
+
+
     
 }   
 //*/
